@@ -3,10 +3,90 @@ layout: main-layout
 ---
 <h3 class="text-center" style="text-transform: uppercase;">Projects</h3>
 <div style="text-align: center;">
-  <a href="#Projects2022" class="btn btn-primary" style="font-weight: bold;">Projects 2022</a>
+  <a href="#Projects2025-2026" class="btn btn-primary" style="font-weight: bold;">Projects 2025-2026</a>
+  <a href="#Projects2022" class="btn btn-secondary" style="font-weight: bold;">Projects 2022</a>
   <a href="#Projects2021" class="btn btn-danger" style="font-weight: bold;">Projects 2021</a>
   <a href="#Projects2020" class="btn btn-warning" style="font-weight: bold;">Projects 2020</a>
   <a href="#cs460Projects" class="btn btn-info" data-lity data-lity-target>CS 460 Projects</a>
+</div>
+
+<hr>
+<h4 id="Projects2025-2026" class="text-center">OMSCS Applied AI & Data Projects</h4>
+<br>
+<div class="row" style="display: flex;">
+    
+    <div id="ARCAgiProject" class="col-md-4">
+        <div class="card" style="width:100%;">
+            <a href="#ARCAgiProject" data-lity data-lity-target>
+            <img style="width:100%; height: auto;" src="/preview_data/omscs/arc_agi_preview.PNG"></a>
+            <div class="card-body">
+                <h4 class="card-title">ARC-AGI Grid Transformation Agent</h4>
+                <p class="card-text">Developed an AI agent that solves complex grid transformation problems by discovering sequences to convert input meshes into target outputs. The agent successfully solved 87 of 96 hidden test problems (91% accuracy).</p>
+                <p class="card-text" style="display:inline;">
+                    Architecture: 
+                    <ul>
+                        <li>Beam Search Algorithm & Parameter Inference</li>
+                        <li>Heuristic Scoring (Shape, Cell Match, Color Distribution)</li>
+                    </ul> 
+                </p>
+                <br>
+                <a href="/preview_data/omscs/TungDuong_ARC-AGI_FinalProject.pdf" class="btn btn-warning" data-lity data-lity-target>Report</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">CS7637 Knowledge-Based AI, Spring 2025</small>
+            </div>
+        </div>
+    </div>
+
+    <div id="HealthInformaticsProject" class="col-md-4">
+        <div class="card" style="width:100%;">
+            <a href="#HealthInformaticsProject" data-lity data-lity-target>
+            <img style="width:100%; height: auto;" src="/preview_data/omscs/platypus_preview.PNG"></a>
+            <div class="card-body">
+                <h4 class="card-title">Patient-First Interoperable Portal</h4>
+                <p class="card-text">Engineered a FHIR-compliant patient-provider portal that prioritizes patient agency over health data. Patients can view charts and selectively share subsets of data (medications, conditions) using secure authentication.</p>
+                <p class="card-text" style="display:inline;">
+                    Tech Stack: 
+                    <ul>
+                        <li>Frontend: React, TypeScript</li>
+                        <li>Backend: Python FastAPI, JSON Data Storage</li>
+                    </ul> 
+                </p>
+                <a href="https://platypus-htck.onrender.com/" target="_blank" class="btn btn-primary" style="font-weight: bold;">Go to Project</a>
+                <a href="https://www.youtube.com/watch?v=_fnpo4AVGDY" class="btn btn-primary" style="background-color: red;" onMouseOver="this.style.background='#8B0000'" onMouseOut="this.style.background='red'" data-lity>Preview</a>
+                <a href="/preview_data/omscs/HealthInformaticsProject-FinalPaper.pdf" class="btn btn-warning" data-lity data-lity-target>Report</a>
+                <a href="/preview_data/omscs/HealthInformaticsProject-UserGuide.pdf" class="btn btn-secondary" data-lity data-lity-target>User Guide</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">CS6440 Health Informatics, Fall 2025</small>
+            </div>
+        </div>
+    </div>
+
+    <div id="DataVisualAnalyticsProject" class="col-md-4">
+        <div class="card" style="width:100%;">
+            <a href="#DataVisualAnalyticsProject" data-lity data-lity-target>
+            <img style="width:100%; height: auto;" src="/preview_data/omscs/housing_map_preview.PNG"></a>
+            <div class="card-body">
+                <h4 class="card-title">Corporate Investment in U.S. Housing</h4>
+                <p class="card-text">Built a multi-scale, interactive web platform visualizing the impact of corporate investor activity on the U.S. housing market by seamlessly integrating Zillow time-series data and Redfin investor metrics.</p>
+                <p class="card-text" style="display:inline;">
+                    Data Modeling: 
+                    <ul>
+                        <li>Holt-Winters Exponential Smoothing Models</li>
+                        <li>Distance-based K-Means Clustering</li>
+                        <li>D3.js Geospatial Mapping</li>
+                    </ul> 
+                </p>
+                <a href="/preview_data/omscs/DataVisualAnalyticsProject-report.pdf" class="btn btn-warning" data-lity data-lity-target>Report</a>
+                <a href="/preview_data/omscs/DataVisualAnalyticsProject-poster.pdf" class="btn btn-secondary" data-lity data-lity-target>Poster</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">CSE6242 Data & Visual Analytics, Fall 2025</small>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <hr>
